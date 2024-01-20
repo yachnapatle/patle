@@ -1,0 +1,27 @@
+h1{
+    color: aquamarine;
+}
+#one
+{
+    color: blueviolet;
+}
+.two
+{
+  color: antiquewhite;  
+}
+input[type="text"]
+{
+    background-color: chartreuse;
+}
+a[href="https://google.com"]
+{
+    background-color: cyan;
+}
+a[href^="https" ]
+{
+    background-color: darkorange;
+}
+a[href*="tt"]
+{
+    background-color: lightcoral;
+}

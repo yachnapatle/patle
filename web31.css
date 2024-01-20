@@ -1,0 +1,8 @@
+div:nth-of-type(even)
+{
+    border: 2px solid green;
+}
+div:first-child
+{
+    border-radius: 50;
+}

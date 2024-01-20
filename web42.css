@@ -1,0 +1,9 @@
+div{
+    background-color: blue;
+    /* display: inline;  */
+    visibility: hidden;
+}
+span{
+    background-color: aquamarine;
+    display: block;
+}

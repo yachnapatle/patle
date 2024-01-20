@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            background-color: black;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            color: aliceblue;
+        }
+        #hello
+        {
+         display: flex; 
+         justify-content: space-between;  
+         width: 400px;
+        }
+        #one
+        {
+            background-color: brown;
+        }
+        @media  screen and (max-width:500px) {
+            section{
+display: flex;
+flex-direction: column;
+height: auto;
+            }
+            #hello
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+  <section>
+    <div>
+<a>coding thinker</a>
+    </div>
+    <div id="hello">
+<a>learn</a>
+<a>gethired</a>
+<a>fast</a>
+    </div>
+
+<div>
+  <button id="one">Login</button>  
+</div>
+  </section>  
+</body>
+</html>

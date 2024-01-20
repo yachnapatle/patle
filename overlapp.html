@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+section{
+    height: 350px;
+    width: 350px;
+    /* background-color: chartreuse; */
+    margin: 50px auto;
+    position: relative;
+    transition: 3s;
+    transform-style: preserve-3d;
+}
+body{
+    perspective: 400px;
+}
+section:hover{
+transform: rotateY(180deg);
+}
+div{
+    height: 100%;
+    width: 100%;
+}
+#one
+{
+    background-color: dodgerblue;
+    /* z-index: 1; */
+    /* transform: rotateY(180deg); */
+}
+#two
+{
+    z-index: 1;
+    transform: rotateY(180deg);
+    background-color: rgb(255, 20, 28);
+
+}
+#one,#two
+{
+
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+    </style>
+</head>
+<body>
+  <section>
+<div id="one">diva</div>
+<div id="two">divb</div>
+  </section>  
+</body>
+</html>

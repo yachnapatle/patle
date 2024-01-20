@@ -1,0 +1,19 @@
+body
+{
+    background-color: rgb(220, 20, 150);
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+}
+@media screen  and (max-width:500px){
+    body {
+background-color: blue
+    }
+    div {
+border-radius: 50%;
+    }
+
+    
+}
